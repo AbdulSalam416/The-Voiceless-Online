@@ -1,0 +1,504 @@
+<%- include('partials/header') %>
+
+<body>
+  <!-- Spinner Start -->
+  <div
+    id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+  >
+    <div
+      class="spinner-border text-primary"
+      style="width: 3rem; height: 3rem"
+      role="status"
+    >
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Navbar & Hero Start -->
+  <div class="container-xxl position-relative p-0">
+    <nav
+      class="navbar navbar-expand-lg .fixed-top navbar-light px-4 px-lg-5 py-3 py-lg-0"
+    >
+      <a href="index.html" class="navbar-brand p-0">
+        <h1 class="m-0">The Voiceless Online</h1>
+        <!-- <img src="img/logo.png" alt="Logo"> -->
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="fa fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0">
+          <a href="#" class="nav-item nav-link active">Home</a>
+          <a href="#about" class="nav-item nav-link">About</a>
+          <a href="#services-list" class="nav-item nav-link">Service</a>
+          <a href="#team" class="nav-item nav-link">Our Team</a>
+
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Pages</a
+            >
+            <div class="dropdown-menu m-0">
+              <a href="feature.html" class="dropdown-item">Blog</a>
+              <a href="team.html" class="dropdown-item">Our Team</a>
+              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+              <a href="404.html" class="dropdown-item">404 Page</a>
+            </div>
+          </div>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-xxl bg-primary hero-header">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="text-white mb-4 animated zoomIn">
+              Your Voice When You Need It Most
+            </h1>
+            <p class="text-white pb-3 animated zoomIn">
+              A media publishing and consultancy organisation. We do news
+              publications, media monitoring and more
+            </p>
+            <a
+              href=""
+              class="btn btn-outline-light rounded-pill border-2 py-3 px-5 animated slideInRight"
+              >Learn More</a
+            >
+          </div>
+          <div class="col-lg-6 text-center text-lg-start">
+            <img class="img-fluid animated zoomIn" src="img/hero1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar & Hero End -->
+
+  <!-- About Start -->
+  <div class="container-xxl py-6" id="about">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
+          <img class="img-fluid" src="img/about.png" />
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div
+            class="d-inline-block border rounded-pill text-primary px-4 mb-3"
+          >
+            About Us
+          </div>
+          <h2 class="mb-4">Award Wining Consultancy Agency For Your Media</h2>
+          <p class="mb-4">
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor
+            sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem
+            et sit, sed stet no labore lorem sit. Sanctus clita duo justo et
+            tempor eirmod
+          </p>
+          <div class="row g-3 mb-4">
+            <div class="col-12 d-flex">
+              <div
+                class="flex-shrink-0 btn-lg-square rounded-circle bg-primary"
+              >
+                <i class="fa fa-user-tie text-white"></i>
+              </div>
+              <div class="ms-4">
+                <h6>Media Consultancy</h6>
+                <span
+                  >Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos
+                  erat ipsum lorem et sit sed stet lorem sit clita duo</span
+                >
+              </div>
+            </div>
+            <div class="col-12 d-flex">
+              <div
+                class="flex-shrink-0 btn-lg-square rounded-circle bg-primary"
+              >
+                <i class="fa fa-chart-line text-white"></i>
+              </div>
+              <div class="ms-4">
+                <h6>Political Analysis</h6>
+                <span
+                  >Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos
+                  erat ipsum lorem et sit sed stet lorem sit clita duo</span
+                >
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href=""
+            >Read More</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+
+  <!-- ======= Call To Action Section ======= -->
+  <section id="call-to-action" class="call-to-action">
+    <div class="container" data-aos="fade-up">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h3>Ut fugiat aliquam aut non</h3>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident.
+          </p>
+          <a class="cta-btn" href="#">Reach To Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Call To Action Section -->
+
+  <!-- ======= Our Services Section ======= -->
+  <section id="services-list" class="services-list">
+    <div class="container" data-aos="fade-up">
+      <div class="section-header">
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="row gy-5">
+        <div
+          class="col-lg-4 col-md-6 service-item d-flex"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="icon flex-shrink-0">
+            <i class="bi bi-briefcase" style="color: #f57813"></i>
+          </div>
+          <div>
+            <h4 class="title">
+              <a href="#" class="stretched-link"
+                >Image Management Consultancy</a
+              >
+            </h4>
+            <p class="description">
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi sint occaecati cupiditate non provident
+            </p>
+          </div>
+        </div>
+        <!-- End Service Item -->
+
+        <div
+          class="col-lg-4 col-md-6 service-item d-flex"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="icon flex-shrink-0">
+            <i class="bi bi-card-checklist" style="color: #15a04a"></i>
+          </div>
+          <div>
+            <h4 class="title">
+              <a href="#" class="stretched-link">News Publications</a>
+            </h4>
+            <p class="description">
+              Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat tarad limino ata
+            </p>
+          </div>
+        </div>
+        <!-- End Service Item -->
+
+        <div
+          class="col-lg-4 col-md-6 service-item d-flex"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <div class="icon flex-shrink-0">
+            <i class="bi bi-bar-chart" style="color: #d90769"></i>
+          </div>
+          <div>
+            <h4 class="title">
+              <a href="#" class="stretched-link">CV Writing</a>
+            </h4>
+            <p class="description">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur
+            </p>
+          </div>
+        </div>
+        <!-- End Service Item -->
+
+        <div
+          class="col-lg-4 col-md-6 service-item d-flex"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          <div class="icon flex-shrink-0">
+            <i class="bi bi-binoculars" style="color: #15bfbc"></i>
+          </div>
+          <div>
+            <h4 class="title">
+              <a href="#" class="stretched-link">Proposal Writing</a>
+            </h4>
+            <p class="description">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum
+            </p>
+          </div>
+        </div>
+        <!-- End Service Item -->
+
+        <div
+          class="col-lg-4 col-md-6 service-item d-flex"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="icon flex-shrink-0">
+            <i class="bi bi-brightness-high" style="color: #f5cf13"></i>
+          </div>
+          <div>
+            <h4 class="title">
+              <a href="#" class="stretched-link">Political Research</a>
+            </h4>
+            <p class="description">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque
+            </p>
+          </div>
+        </div>
+        <!-- End Service Item -->
+
+        <div
+          class="col-lg-4 col-md-6 service-item d-flex"
+          data-aos="fade-up"
+          data-aos-delay="600"
+        >
+          <div class="icon flex-shrink-0">
+            <i class="bi bi-calendar4-week" style="color: #1335f5"></i>
+          </div>
+          <div>
+            <h4 class="title">
+              <a href="#" class="stretched-link">Strategic Media Marketting</a>
+            </h4>
+            <p class="description">
+              Et harum quidem rerum facilis est et expedita distinctio. Nam
+              libero tempore, cum soluta nobis est eligendi
+            </p>
+          </div>
+        </div>
+        <!-- End Service Item -->
+      </div>
+    </div>
+  </section>
+  <!-- End Our Services Section -->
+
+  <!-- ======= Recent Blog Posts Section ======= -->
+  <section id="recent-posts" class="recent-posts">
+    <div class="container" data-aos="fade-up">
+      <div class="section-header">
+        <h2>Recent Publications</h2>
+      </div>
+
+      <div class="row gy-5">
+        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="post-box">
+            <div class="post-img">
+              <img src="img/blog/blog-1.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="meta">
+              <span class="post-date">Tue, December 12</span>
+              <span class="post-author"> / Julia Parker</span>
+            </div>
+            <h3 class="post-title">
+              Eum ad dolor et. Autem aut fugiat debitis
+            </h3>
+            <p>
+              Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel
+              omnis laudantium. Asperiores eum ipsa est officiis. Modi qui magni
+              est...
+            </p>
+            <a href="blog-details.html" class="readmore stretched-link"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="post-box">
+            <div class="post-img">
+              <img src="img/blog/blog-2.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="meta">
+              <span class="post-date">Fri, September 05</span>
+              <span class="post-author"> / Mario Douglas</span>
+            </div>
+            <h3 class="post-title">
+              Et repellendus molestiae qui est sed omnis
+            </h3>
+            <p>
+              Voluptatem nesciunt omnis libero autem tempora enim ut ipsam id.
+              Odit quia ab eum assumenda. Quisquam omnis doloribus...
+            </p>
+            <a href="blog-details.html" class="readmore stretched-link"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="post-box">
+            <div class="post-img">
+              <img src="img/blog/blog-3.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="meta">
+              <span class="post-date">Tue, July 27</span>
+              <span class="post-author"> / Lisa Hunter</span>
+            </div>
+            <h3 class="post-title">Quia assumenda est et veritati</h3>
+            <p>
+              Quia nam eaque omnis explicabo similique eum quaerat similique
+              laboriosam. Quis omnis repellat sed quae consectetur magnam...
+            </p>
+            <a href="blog-details.html" class="readmore stretched-link"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="post-box">
+            <div class="post-img">
+              <img src="img/blog/blog-4.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="meta">
+              <span class="post-date">Tue, Sep 16</span>
+              <span class="post-author"> / Mario Douglas</span>
+            </div>
+            <h3 class="post-title">Pariatur quia facilis similique deleniti</h3>
+            <p>
+              Et consequatur eveniet nam voluptas commodi cumque ea est ex. Aut
+              quis omnis sint ipsum earum quia eligendi...
+            </p>
+            <a href="blog-details.html" class="readmore stretched-link"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Recent Blog Posts Section -->
+
+  <!-- Team Start -->
+  <div class="container-xxl py-6" id="team">
+    <div class="container">
+      <div
+        class="mx-auto text-center wow fadeInUp"
+        data-wow-delay="0.1s"
+        style="max-width: 600px"
+      >
+        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">
+          Our Team
+        </div>
+        <h2 class="mb-5">Meet Our Team Members</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="team-item">
+            <h5>Full Name</h5>
+            <p class="mb-4">Designation</p>
+            <img
+              class="img-fluid rounded-circle w-100 mb-4"
+              src="img/team-1.jpg"
+              alt=""
+            />
+            <div class="d-flex justify-content-center">
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="team-item">
+            <h5>Full Name</h5>
+            <p class="mb-4">Designation</p>
+            <img
+              class="img-fluid rounded-circle w-100 mb-4"
+              src="img/team-2.jpg"
+              alt=""
+            />
+            <div class="d-flex justify-content-center">
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="team-item">
+            <h5>Full Name</h5>
+            <p class="mb-4">Designation</p>
+            <img
+              class="img-fluid rounded-circle w-100 mb-4"
+              src="img/team-3.jpg"
+              alt=""
+            />
+            <div class="d-flex justify-content-center">
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+          <div class="team-item">
+            <h5>Full Name</h5>
+            <p class="mb-4">Designation</p>
+            <img
+              class="img-fluid rounded-circle w-100 mb-4"
+              src="img/team-4.jpg"
+              alt=""
+            />
+            <div class="d-flex justify-content-center">
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square text-primary bg-white m-1" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Team End -->
+
+  <%- include('partials/footer') %>
+</body>
