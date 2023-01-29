@@ -1,10 +1,10 @@
 /********** Template CSS **********/
 :root {
-  --primary: #478251;
-  --secondary: #a2d5c6;
+  --primary: hsl(155, 100%, 36%);
+  --secondary: #e93c05;
   --tertiary: #555555;
-  --light: #dfe4fd;
-  --dark: #1a1a18;
+  --light: #f3f6f8;
+  --dark: #0e2e50;
 }
 
 .back-to-top {
@@ -451,6 +451,7 @@ h6,
 }
 
 .team-item img {
+  max-height: 15rem;
   padding: 15px;
   border: 1px solid var(--primary);
 }
@@ -487,16 +488,14 @@ h6,
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: var(--light);
-  font-family: var(--secondary);
+  color: #bada55;
   margin-top: 3px;
 }
 
 .footer .footer-content .footer-info p {
   font-size: 15px;
   margin-bottom: 0;
-  font-family: var(--primary);
-  color: var(--secondary);
+  color: var(--light);
 }
 
 .footer .footer-content .social-links a {
@@ -505,7 +504,7 @@ h6,
   display: inline-block;
   width: 32px;
   height: 32px;
-  color: var(--secondary);
+  color: var(--light);
   margin-right: 10px;
   transition: 0.3s;
   display: flex;
@@ -523,7 +522,7 @@ h6,
 .footer .footer-content h4 {
   font-size: 16px;
   font-weight: bold;
-  color: var(--light);
+  color: #bada55;
   position: relative;
   padding-bottom: 12px;
 }
@@ -556,7 +555,7 @@ h6,
 }
 
 .footer .footer-content .footer-links ul a {
-  color: var(--secondary);
+  color: var(--light);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -568,7 +567,7 @@ h6,
 
 .footer .footer-content .footer-contact p {
   line-height: 26px;
-  color: var(--secondary);
+  color: var(--light);
 }
 
 .footer .footer-legal {
@@ -578,12 +577,12 @@ h6,
 
 .footer .footer-legal .copyright {
   text-align: center;
-  color: var(--secondary);
+  color: var(--light);
 }
 
 .footer .footer-legal .credits {
   padding-top: 4px;
   text-align: center;
   font-size: 13px;
-  color: var(--secondary);
+  color: var(--light);
 }

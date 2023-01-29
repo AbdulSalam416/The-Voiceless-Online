@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const _ = require("lodash");
 const app = express();
-const url = 3000;
+const url = 3001;
 
 app.set("view engine", "ejs");
 
@@ -14,8 +14,8 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/about", (req, res) => {
-  res.render("about");
+app.get("/blog", (req, res) => {
+  res.render("blog");
 });
 
 app.listen(url, function () {
